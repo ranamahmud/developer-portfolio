@@ -12,7 +12,7 @@ const Introduce = () => {
                     }}>
                         <div className="row no-gutters">
                             <div className="col-md-4">
-                                <img src="..." className="card-img" alt="..." />
+                                <i class="fab fa-react fa-8x"></i>
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
@@ -29,7 +29,8 @@ const Introduce = () => {
                     }}>
                         <div className="row no-gutters">
                             <div className="col-md-4">
-                                <img src="..." className="card-img" alt="..." />
+                                <i class="fab fa-dev fa-8x"></i>
+
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
@@ -46,7 +47,8 @@ const Introduce = () => {
                     }}>
                         <div className="row no-gutters">
                             <div className="col-md-4">
-                                <img src="..." className="card-img" alt="..." />
+                                <i class="fas fa-chart-bar fa-8x"></i>
+
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
