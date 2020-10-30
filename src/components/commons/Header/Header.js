@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-
+import "./Header.css"
 const Header = () => {
     return (
         <Container>
@@ -28,7 +28,16 @@ const Header = () => {
                     </div>
 
                 </Col>
-                <Col md={6}>left</Col>
+                <Col md={6}>
+
+                    <i class="fab fa-python fa-10x"></i>
+                    <i class="fab fa-js fa-8x"></i>
+                    <i class="fab fa-angular fa-6x"></i>
+                    <i class="fab fa-react fa-7x"></i>
+                    <i class="fab fa-node fa-3x"></i>
+                    <i class="fas fa-database fa-4x"></i>
+
+                </Col>
             </Row>
         </Container>
     );

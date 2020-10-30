@@ -1,10 +1,10 @@
 import React from 'react';
 import { Navbar, Nav, Image } from 'react-bootstrap';
-
+import './Navigation.css'
 
 const Navigation = () => {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="dark" expand="lg">
             <Navbar.Brand href="#home">Md Rana Mahmud</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -14,28 +14,15 @@ const Navigation = () => {
                     <Nav.Link href="#link">Notes</Nav.Link>
                     <Nav.Link href="#link">Contacts </Nav.Link>
                     <Nav.Link href="#link">
-                        <span>  <Image fluid src={require("../../../images/icons/twitter-brands.svg").default}
-                            style={{
-                                height: "30px",
-                                width: "30px"
-                            }}
-                        />Twitter</span>
+                        <span><i class="fab fa-github fa-lg"></i>Twitter</span>
                     </Nav.Link>
                     <Nav.Link href="#link">
-                        <span> <Image fluid src={require("../../../images/icons/github-square-brands.svg").default}
-                            style={{
-                                height: "30px",
-                                width: "30px"
-                            }}
-                        />Github</span>
+                        <span>
+                            <i class="fab fa-github fa-lg"></i>
+                            Github</span>
                     </Nav.Link>
                     <Nav.Link href="#link">
-                        <span> <Image fluid src={require("../../../images/icons/envelope-solid.svg").default}
-                            style={{
-                                height: "30px",
-                                width: "30px"
-                            }}
-                        /></span>
+                        <i class="far fa-envelope fa-lg"></i>
                     </Nav.Link>
                 </Nav>
 
