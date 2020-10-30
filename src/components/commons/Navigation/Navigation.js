@@ -6,7 +6,11 @@ import './Navigation.css'
 const Navigation = () => {
     return (
         <Navbar bg="dark" expand="lg">
-            <Navbar.Brand href="#home">Md Rana Mahmud</Navbar.Brand>
+            <Link className="nav-link" to="/"
+                style={{
+                    color: 'white'
+                }}
+            ><h4>Md Rana Mahmud</h4></Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
@@ -18,11 +22,17 @@ const Navigation = () => {
                     <Nav.Link href="#link">
                         <span><i class="fab fa-github fa-lg"></i>Twitter</span>
                     </Nav.Link>
-                    <Nav.Link href="#link">
+                    <Nav.Link href="https://github.com/ranamahmud">
 
                         <span>
                             <i class="fab fa-github fa-lg"></i>
                             Github</span>
+                    </Nav.Link>
+                    <Nav.Link href="https://www.linkedin.com/in/mdranamahmud/">
+
+                        <span>
+                            <i class="fab fa-linkedin fa-lg"></i>
+                            Linkedin</span>
                     </Nav.Link>
                     <Nav.Link href="#link">
                         <i class="far fa-envelope fa-lg"></i>
