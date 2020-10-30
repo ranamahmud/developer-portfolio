@@ -46,8 +46,8 @@ const Projects = () => {
                                     Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
     </Card.Text>
-                                <a href="https://creative-agency-d474c.web.app/"> <Button variant="primary">Live Site</Button></a>
-                                <a href="https://github.com/ranamahmud/creative-agency-client">  <Button variant="primary">Github</Button></a>
+                                <a href="https://travel-guru-8d0d8.web.app/"> <Button variant="primary">Live Site</Button></a>
+                                <a href="https://github.com/ranamahmud/travel-guru">  <Button variant="primary">Github</Button></a>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -60,8 +60,8 @@ const Projects = () => {
                                     Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
     </Card.Text>
-                                <a href="https://creative-agency-d474c.web.app/"> <Button variant="primary">Live Site</Button></a>
-                                <a href="https://github.com/ranamahmud/creative-agency-client">  <Button variant="primary">Github</Button></a>
+                                <a href="https://volunteer-network-ccb28.web.app/"> <Button variant="primary">Live Site</Button></a>
+                                <a href="https://github.com/ranamahmud/volunteer-network">  <Button variant="primary">Github</Button></a>
                             </Card.Body>
                         </Card>
                     </Col>
