@@ -7,7 +7,9 @@ const Header = () => {
         <Container>
             <Row>
                 <Col md={6}>
-                    <div>Front-End Developer</div>
+                    <div style={{
+                        marginTop: "20px"
+                    }}><h3 id="tag-line">Front-End Developer</h3></div>
                     <div className="talk">
                         <h1>Talk is cheap.</h1>
                         <h1>Show me the code</h1>

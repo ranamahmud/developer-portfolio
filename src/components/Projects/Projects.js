@@ -25,7 +25,7 @@ const Projects = () => {
                     </Col>
                     <Col md={4}>
                         <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src="holder.js/100px180" />
+                            <Card.Img variant="top" src={require('../../images/projects/travel-guru.png').default} />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
                                 <Card.Text>
@@ -39,9 +39,9 @@ const Projects = () => {
                     </Col>
                     <Col md={4}>
                         <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src="holder.js/100px180" />
+                            <Card.Img variant="top" src={require('../../images/projects/travel-guru.png').default} />
                             <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
+                                <Card.Title>Travel Guru</Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
@@ -53,9 +53,9 @@ const Projects = () => {
                     </Col>
                     <Col md={4}>
                         <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src="holder.js/100px180" />
+                            <Card.Img variant="top" src={require('../../images/projects/volunteer-network.png').default} />
                             <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
+                                <Card.Title>Volunteer Network</Card.Title>
                                 <Card.Text>
                                     Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
