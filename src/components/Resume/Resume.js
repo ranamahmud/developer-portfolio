@@ -6,7 +6,12 @@ const Resume = () => {
     return (
         <Fragment>
             <Navigation />
+            
+            <br/>
             <Container>
+                <a href={require('../../images/md-rana-mahmud.pdf').default} download> <button className="btn btn-primary">Download Resume</button></a>
+
+               
                 <div>
                     <div className="text-center">
                         <h1>MD RANA MAHMUD</h1>
