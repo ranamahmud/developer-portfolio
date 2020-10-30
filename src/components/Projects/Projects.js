@@ -10,14 +10,16 @@ const Projects = () => {
                 <Row>
                     <Col md={4}>
                         <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src="holder.js/100px180" />
+                            <Card.Img variant="top" src={require('../../images/projects/creative-agency.png').default} />
                             <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
+                                <Card.Title>Creative Agency</Card.Title>
                                 <Card.Text>
-                                    Some quick example text to build on the card title and make up the bulk of
-                                    the card's content.
+                                    Responsive web app to order and manage digital service.
     </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+
+
+                                <a href="https://creative-agency-d474c.web.app/"> <Button variant="primary">Live Site</Button></a>
+                                <a href="https://github.com/ranamahmud/creative-agency-client">  <Button variant="primary">Github</Button></a>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -30,7 +32,8 @@ const Projects = () => {
                                     Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
     </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <a href="https://creative-agency-d474c.web.app/"> <Button variant="primary">Live Site</Button></a>
+                                <a href="https://github.com/ranamahmud/creative-agency-client">  <Button variant="primary">Github</Button></a>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -43,7 +46,8 @@ const Projects = () => {
                                     Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
     </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <a href="https://creative-agency-d474c.web.app/"> <Button variant="primary">Live Site</Button></a>
+                                <a href="https://github.com/ranamahmud/creative-agency-client">  <Button variant="primary">Github</Button></a>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -56,7 +60,8 @@ const Projects = () => {
                                     Some quick example text to build on the card title and make up the bulk of
                                     the card's content.
     </Card.Text>
-                                <Button variant="primary">Go somewhere</Button>
+                                <a href="https://creative-agency-d474c.web.app/"> <Button variant="primary">Live Site</Button></a>
+                                <a href="https://github.com/ranamahmud/creative-agency-client">  <Button variant="primary">Github</Button></a>
                             </Card.Body>
                         </Card>
                     </Col>
