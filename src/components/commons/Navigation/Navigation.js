@@ -1,5 +1,6 @@
 import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar, Nav, Image } from 'react-bootstrap';
+
 
 const Navigation = () => {
     return (
@@ -12,9 +13,30 @@ const Navigation = () => {
                     <Nav.Link href="#link">Works</Nav.Link>
                     <Nav.Link href="#link">Notes</Nav.Link>
                     <Nav.Link href="#link">Contacts </Nav.Link>
-                    <Nav.Link href="#link">Twitter </Nav.Link>
-                    <Nav.Link href="#link">Github </Nav.Link>
-                    <Nav.Link href="#link">Email </Nav.Link>
+                    <Nav.Link href="#link">
+                        <span>  <Image fluid src={require("../../../images/icons/twitter-brands.svg").default}
+                            style={{
+                                height: "30px",
+                                width: "30px"
+                            }}
+                        />Twitter</span>
+                    </Nav.Link>
+                    <Nav.Link href="#link">
+                        <span> <Image fluid src={require("../../../images/icons/github-square-brands.svg").default}
+                            style={{
+                                height: "30px",
+                                width: "30px"
+                            }}
+                        />Github</span>
+                    </Nav.Link>
+                    <Nav.Link href="#link">
+                        <span> <Image fluid src={require("../../../images/icons/envelope-solid.svg").default}
+                            style={{
+                                height: "30px",
+                                width: "30px"
+                            }}
+                        /></span>
+                    </Nav.Link>
                 </Nav>
 
             </Navbar.Collapse>
