@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Image, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import "./Header.css"
 const Header = () => {
@@ -29,7 +29,7 @@ const Header = () => {
 
                 </Col>
                 <Col md={6}>
-
+                    <Image src={require('../../../images/front-image.png').default} />
                     <i class="fab fa-python fa-10x"></i>
                     <i class="fab fa-js fa-8x"></i>
                     <i class="fab fa-angular fa-6x"></i>

@@ -17,6 +17,7 @@ const Navigation = () => {
                         <span><i class="fab fa-github fa-lg"></i>Twitter</span>
                     </Nav.Link>
                     <Nav.Link href="#link">
+
                         <span>
                             <i class="fab fa-github fa-lg"></i>
                             Github</span>
@@ -27,7 +28,7 @@ const Navigation = () => {
                 </Nav>
 
             </Navbar.Collapse>
-        </Navbar>
+        </Navbar >
     );
 };
 
