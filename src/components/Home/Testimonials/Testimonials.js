@@ -12,10 +12,10 @@ const Testimonials = () => {
 
 
 
-                {/* <Col md={6}>  <h3>Testimonials</h3></Col> */}
-                {/* <Col md={6}>  What's clients say about me</Col> */}
+                <Col md={6}>  <h3>Testimonials</h3></Col>
+                <Col md={6}>  What's clients say about me</Col>
             </Row>
-            {/* <Row>
+            <Row>
                 <Col md={4}>
                     <div className="card mb-3" style={{
                         maxwidth: "540px"
@@ -72,7 +72,7 @@ const Testimonials = () => {
                     </div>
                 </Col>
 
-            </Row> */}
+            </Row>
         </Container>
     );
 };
