@@ -9,7 +9,7 @@ const Header = () => {
                 <Col md={6}>
                     <div style={{
                         marginTop: "20px"
-                    }}><h3 id="tag-line">Machine Learning Engineer</h3></div>
+                    }}><h3 id="tag-line">Front-End Developer</h3></div>
                     <div className="talk">
                         <h1>Talk is cheap.</h1>
                         <h1>Show me the code</h1>
@@ -24,7 +24,7 @@ const Header = () => {
                                 <h1>4</h1><p>YEARS Experience</p>
                             </div>
                             <div className="experience-right">
-                                <h1>350</h1><br/><p>PROJECTS Completed Worldwide Experience</p>
+                                <h1>350</h1><p>PROJECTS Completed Worldwide Experience</p>
                             </div>
                         </Row>
                     </div>

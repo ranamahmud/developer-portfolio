@@ -24,7 +24,7 @@ const Header = () => {
                                 <h1>4</h1><p>YEARS Experience</p>
                             </div>
                             <div className="experience-right">
-                                <h1>350</h1><br/><p>PROJECTS Completed Worldwide Experience</p>
+                                <h1>350</h1><br></br><p>PROJECTS Completed Worldwide Experience</p>
                             </div>
                         </Row>
                     </div>
