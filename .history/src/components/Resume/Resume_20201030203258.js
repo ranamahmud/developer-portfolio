@@ -24,7 +24,7 @@ const Resume = () => {
                    </div>
                 <h2>PROFILE</h2>
                     <hr />
-                    <p>Highly specialized in Data Cleaning, Visualization, Analysis, and Machine Learning with 5 years
+                    <p>Highly specialized in Data Cleaning, Visualization, Analysis, and Machine Learning with 4 years
                 of experience. React Developer with 6 months’ experience.</p>
                     <h2>PROJECTS</h2>
                     <hr />

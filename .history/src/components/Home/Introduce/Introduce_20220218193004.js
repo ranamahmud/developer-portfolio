@@ -41,7 +41,7 @@ const Introduce = () => {
                         </div>
                     </div>
 
-                    {/* <div className="card mb-3" style={{
+                    <div className="card mb-3" style={{
                         maxwidth: "540px"
                     }}>
                         <div className="row no-gutters">
@@ -57,7 +57,7 @@ const Introduce = () => {
                                 </div>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
 
                     <div className="card mb-3" style={{
                         maxwidth: "540px"

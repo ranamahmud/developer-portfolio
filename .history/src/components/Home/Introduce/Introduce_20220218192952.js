@@ -41,7 +41,7 @@ const Introduce = () => {
                         </div>
                     </div>
 
-                    {/* <div className="card mb-3" style={{
+                    <div className="card mb-3" style={{
                         maxwidth: "540px"
                     }}>
                         <div className="row no-gutters">
@@ -53,11 +53,11 @@ const Introduce = () => {
                                 <div className="card-body">
                                     <h5 className="card-title">Front-End</h5>
                                     <p className="card-text">I develop front end using modern web technologies.</p>
-                                    <p className="card-text"><small className="text-muted">20 Projects</small></p>
+                                    {/* <p className="card-text"><small className="text-muted">20 Projects</small></p> */}
                                 </div>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
 
                     <div className="card mb-3" style={{
                         maxwidth: "540px"

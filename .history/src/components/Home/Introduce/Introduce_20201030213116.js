@@ -7,7 +7,7 @@ const Introduce = () => {
             <Row>
                 <Col md={6}>
 
-                    {/* <div className="card mb-3" style={{
+                    <div className="card mb-3" style={{
                         maxwidth: "540px"
                     }}>
                         <div className="row no-gutters">
@@ -22,26 +22,9 @@ const Introduce = () => {
                                 </div>
                             </div>
                         </div>
-                    </div> */}
-
-<div className="card mb-3" style={{
-                        maxwidth: "540px"
-                    }}>
-                        <div className="row no-gutters">
-                            <div className="col-md-4">
-                                <i class="fab fa-react fa-8x"></i>
-                            </div>
-                            <div className="col-md-8">
-                                <div className="card-body">
-                                    <h5 className="card-title">Machine Learning Engineer</h5>
-                                    <p className="card-text">Develop ML solutions.</p>
-                                    {/* <p className="card-text"><small className="text-muted">6 Projects</small></p> */}
-                                </div>
-                            </div>
-                        </div>
                     </div>
 
-                    {/* <div className="card mb-3" style={{
+                    <div className="card mb-3" style={{
                         maxwidth: "540px"
                     }}>
                         <div className="row no-gutters">
@@ -57,7 +40,7 @@ const Introduce = () => {
                                 </div>
                             </div>
                         </div>
-                    </div> */}
+                    </div>
 
                     <div className="card mb-3" style={{
                         maxwidth: "540px"
